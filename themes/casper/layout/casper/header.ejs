@@ -1,4 +1,23 @@
 <header class="site-head" <% if (theme.cover) { %> style="background-image: url(<%- theme.cover %>); background-size:400px 400px; background-repeat: repeat" <% } %>>
+    <div class="nav">
+        <div class="navbar navbar-default navbar-fixed-top">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">Coderstand</a>
+          </div>
+          <div class="navbar-collapse collapse navbar-responsive-collapse">
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="#">Blog</a></li>
+              <li><a href="#">Fiction</a></li>
+              <li><a href="#">About Me</a></li>
+            </ul>
+          </div>
+        </div>
+    </div>
     <div class="vertical">
         <div class="site-head-content inner">
             <% if (theme.logo) { %> <a class="blog-logo" href="<%- config.root %>"><img src="<%- theme.logo %>" alt="Blog Logo"/></a> <% } %>
