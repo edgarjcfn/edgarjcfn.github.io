@@ -4,4 +4,3 @@ db.json
 debug.log
 node_modules/
 .deploy/
-_config.yml
