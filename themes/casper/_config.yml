@@ -1,6 +1,6 @@
 # config
-cover: //blog.ghost.org/content/images/2013/Nov/cover.png
-logo: //blog.ghost.org/content/images/2013/Nov/bloglogo_1-1.png
+cover: /img/skulls.png
+logo: /img/profile.png
 bio: 'Edgar is a developer, father, husband and technology enthusiast. He likes to write about technology, work-life balance and eventually even some fiction.'
 
 # Content

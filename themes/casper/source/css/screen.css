@@ -538,7 +538,7 @@ margin on the iframe, cause it breaks stuff. */
 .post-template .site-head {
     color: #303538;
     border-bottom: #ebf2f6 1px solid;
-    background: none !important;
+    background: url(/img/skulls_bw.png) !important;
 }
 
 .post-template .site-head:after {
@@ -1063,6 +1063,7 @@ pre .chunk {
 
     .blog-title {
         font-size: 3rem;
+        color: #2E3B40;
     }
 
     .blog-description {

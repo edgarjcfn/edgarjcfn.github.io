@@ -3,9 +3,9 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Eddie's Blog
-subtitle: where edgar writes about stuff.
-description: Programming, fiction, philosophy and work-life balance.
+title: "Coderstand"
+subtitle: Hi I'm Edgar and here is where I write about stuff.
+description: "Programming, fiction, philosophy and work-life balance."
 author: Edgar Neto
 email: edgar@edgarneto.com
 language: English
@@ -32,7 +32,7 @@ titlecase: false # Transform title into titlecase
 external_link: true # Open external links in new tab
 filename_case: 0
 render_drafts: false
-post_asset_folder: false
+post_asset_folder: true
 relative_link: false
 highlight:
   enable: true
