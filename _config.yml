@@ -87,3 +87,9 @@ exclude_generator:
 deploy:
   type: github
   repo: https://github.com/edgarjcfn/edgarjcfn.github.io.git
+
+# Feed Plugin
+feed:
+  type: atom
+  path: atom.xml
+  limit: 20
