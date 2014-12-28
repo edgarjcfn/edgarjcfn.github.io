@@ -401,6 +401,14 @@ margin on the iframe, cause it breaks stuff. */
     text-shadow: 0 1px 6px rgba(0,0,0,0.1);
 }
 
+.blog-title a {
+    color: #fff;
+}
+
+.blog-title a:hover {
+    text-decoration:none;
+}
+
 .blog-description {
     margin: 0;
     font-size: 1.8rem;
@@ -539,8 +547,8 @@ margin on the iframe, cause it breaks stuff. */
 .post-template .site-head {
     color: #303538;
     border-bottom: #ebf2f6 1px solid;
-    background: url(/img/skulls_bw.png) !important;
-    background-size:200px 200px;
+    /*background: url(/img/skulls_bw.png) !important;*/
+    /*background-size:200px 200px;*/
     height:150px;
 }
 
@@ -567,6 +575,14 @@ margin on the iframe, cause it breaks stuff. */
 
 .post-template .blog-description {
     display:none;
+}
+
+/*.post-template .blog-title a {
+    color: #303538;
+}*/
+
+.post-template .blog-title a:hover {
+    text-decoration: none;
 }
 
 /* Keep large images within the bounds of the post-width */
