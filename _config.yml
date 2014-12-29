@@ -41,8 +41,8 @@ highlight:
 
 # Category & Tag
 default_category: uncategorized
-category_map:
-tag_map:
+category_map: categories
+tag_map: tags
 
 # Archives
 ## 2: Enable pagination
