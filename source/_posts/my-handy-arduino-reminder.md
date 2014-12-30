@@ -5,6 +5,7 @@ tags:
  - programming
  - making
 categories:
+ - Blog
  - Arduino
 ---
 A while ago I got my first Arduino kit as a backer for an [Indiegogo Campaign](http://www.indiegogo.com).

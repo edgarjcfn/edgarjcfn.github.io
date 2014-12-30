@@ -93,3 +93,17 @@ feed:
   type: atom
   path: atom.xml
   limit: 20
+
+# Category Archive Plugin
+category_archives:
+  - archive:
+      slug: fiction # Will render /fiction/index.html
+      category: Fiction # Name of category to render the collection
+      template: index # Will use the layout/fiction.ejs template
+      exclude_from_index: true # Will exclude posts with this category from /index.html
+  - archive:
+      slug: blog
+      category: Blog
+      template: index
+      exclude_from_index: false
+

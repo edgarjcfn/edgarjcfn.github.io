@@ -1,5 +1,7 @@
 title: We never talk about it
 date: 2014-12-28 18:16:56
+categories:
+ - Fiction
 ---
 What I'm about to write happened four years ago. We haven't talked about it since, but something happened today that made me decide to put it into writing.
 

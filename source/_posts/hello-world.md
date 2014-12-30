@@ -1,6 +1,7 @@
 title: Hello World
 date: 2014-03-09 14:43:22
-tags:
+categories:
+ - Blog
 ---
 I've tried blogging many times.
 I've stopped blogging even more times.

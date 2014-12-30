@@ -5,8 +5,8 @@ tags:
  - hackathon
  - javascript
 categories:
- - Lucy is a Spy with Diamonds
- - test
+ - Blog
+ - Lucy
 ---
 Me and my brother decided to make a game together for the first time. We signed up for a Hackathon and made US$11k in one weekend!
 
