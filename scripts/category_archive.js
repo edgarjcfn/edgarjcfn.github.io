@@ -14,6 +14,9 @@ hexo.extend.generator.register('category_archive', function(locals, render, call
         return clone;
     }
 
+    //
+    // Creates category pages
+    //
     if (hexo.config.category_archives)
     {
         for (var i=0; i < hexo.config.category_archives.length; i++) {
@@ -28,11 +31,30 @@ hexo.extend.generator.register('category_archive', function(locals, render, call
                 });
                 return found;
             });
-            var newLocals = localsClone(filteredPosts);
+            var categoryLocals = localsClone(filteredPosts);
             hexo.log.i('Generating archive ' + archive.slug + ' with ' + filteredPosts.length + ' posts');
-            render(archive.slug + '/index.html', archive.template, newLocals);
+            render(archive.slug + '/index.html', archive.template, categoryLocals);
         }
     }
 
     callback();
+});
+
+hexo.extend.helper.register('excludedFromIndex', function(post){
+    var excluded = false;
+    for (var i=0; i < hexo.config.category_archives.length; i++) {
+        var archive = hexo.config.category_archives[i].archive;
+        var found = false;
+        post.categories.each(function(cat){
+            if (cat.name == archive.category) {
+                found = true;
+            }
+        });
+
+        if (found && archive.exclude_from_index) {
+            excluded = true;
+        }
+    }
+
+    return excluded;
 });

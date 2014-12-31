@@ -1,6 +1,7 @@
-
 <main class="content" role="main">
+  <% var ignoreExcluded = ignoreExcluded || false %>
   <% page.posts.each(function(post) { %>
+  <% if (!ignoreExcluded && excludedFromIndex(post)) {return;} %>
   <article class="post">
     <header class="post-header">
       <%- partial('post/meta', {post: post}) %>

@@ -26,7 +26,7 @@ source_dir: source
 public_dir: public
 
 # Writing
-new_post_name: :title.md # File name of new posts
+new_post_name: :year-:month:-:title.md # File name of new posts
 default_layout: post
 titlecase: false # Transform title into titlecase
 external_link: true # Open external links in new tab
@@ -99,7 +99,7 @@ category_archives:
   - archive:
       slug: fiction # Will render /fiction/index.html
       category: Fiction # Name of category to render the collection
-      template: index # Will use the layout/fiction.ejs template
+      template: fiction # Will use the layout/fiction.ejs template
       exclude_from_index: true # Will exclude posts with this category from /index.html
   - archive:
       slug: blog
