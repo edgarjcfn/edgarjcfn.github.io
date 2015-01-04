@@ -35,7 +35,9 @@ I ended up working on something that would work like this:
 4. After I clean the box, I press a button and the Green LED is back.
 
 ### The code
- The code is available on this [Gist](https://gist.github.com/edgarjcfn/9583750.js).
+ The code is available on this [Gist](https://gist.github.com/edgarjcfn/9583750)
+
+ {% gist 9583750 %}
 
 ###Results
 I have to say that in general, not only the litter box is a lot cleaner after I started using the reminder, I have outsourced my wife's job of having to remind me everyday (she loved it!). And the daily repetition and reminder also helped me to develop a habit in which I barely need to look at the reminder now, to keep the box clean.
