@@ -9,7 +9,7 @@ Dr. Alice Young looked at the projected screen and let her jaw drop with a gasp.
 
 Dr. Young couldn't believe her eyes. "If this is true, my profession will never be the same" she thought. "No, no. It will more likely cease to exist."
 
-Alice had been a practicing psychiatrist for 20 years. She always strived to find a balance between academic research and attending to patients in her well-decorated office in the center of London. In all these years, Alice had accumulated two Ph.D.'s at the expense of having little to no social life. The plans of starting a family were constantly postponed to tomorrow, even though at her age, tomorrow felt more and more like a yesterday that never came. 
+Alice had been a practicing psychiatrist for 20 years. She always strived to find a balance between academic research and attending to patients in her well-decorated office in the center of London. In all these years, Alice had accumulated two Ph.D.'s at the expense of having little to no social life. The plans of starting a family were constantly postponed to tomorrow, even though at her age, tomorrow felt more and more like a yesterday that never came.
 
 It was a rainy thursday night when she received an invite for the presentation that would change her life. At that point, the accomplished doctor thought that nothing could surprise her in the field of research in psychosexual depression, and was mostly intrigued when she realised the invitation had come from the MIT Media Lab.
 
@@ -39,10 +39,7 @@ Alice met the world's lead researchers in psychiatry on the same night at the ho
 
 <!-- Expand dinner, develop other researchers -->
 
-The next day they were led into a small auditorium inside the MIT Campus, where the mysterious presentation was finally about to begin. There was no elevated stage and the audience was made of no more than 15 people. In the center 
+The next day they were led into a small auditorium inside the MIT Campus, where the mysterious presentation was finally about to begin. There was no elevated stage and the audience was made of no more than 15 people. In the center
 
-
+(Work in progress. To be continued)
 <!-- words for the vermins: writhe, squirm -->
-
-
-
