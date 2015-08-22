@@ -6,9 +6,9 @@ categories:
   - Sci-fi
 ---
 
-Anton Rieser sat on the floor. Was the floor even there? It felt like his whole life had completely lost its meaning. Or had it gained a new one?
+Anton Rieser sat on the floor. Was the floor even there?
 
-The words were hard to swallow. The news he had received made him dizzy. And the voice that delivered them was the digitalized voice of a _machine_. A machine he had helped create.
+ It felt like his whole life had completely lost its meaning. The words were hard to swallow. The news he had received made him dizzy. And the voice that delivered them was the digitalized voice of a _machine_. A machine he had helped create.
 
 The huge cold room and its white walls were spinning in and out of control. Anton found no pivot to keep from feeling sick.
 
@@ -81,8 +81,93 @@ Anton was surprised. "Not at all", he replied. "But what is this work you are ta
 
 "Anticipating? That means that from now on you'll try to predict what I will say?"
 
-"Precisely, doctor. With all the data gathered so far, I am able to run multiple simulations in parallel and predict your reactions to my actions with near-complete accuracy"
+"Precisely, doctor. With all the data gathered so far, I am able to run multiple simulations in parallel and predict your reactions to my actions with near-infallible accuracy"
 
-Dr. Rieser was at the same time baffled and scared. He started to realize a pattern was forming. "But that's not going to be enough, is it?"
+Dr. Rieser was at the same time baffled and scared. He started to realize a pattern was forming. He thought about his team watching him from the next room. He asked the question he knew he should ask, even though he already knew the answer. "But you're not going to stop there, are you?"
 
-(Work in progress. to be continued)
+"Of course not, Doctor. As the most intelligent being of this planet, I feel like it's my duty to explore the limits of knowledge and consciousness."
+
+That was all too sudden. A few minutes before, the machine was not even operating. And now it was referring to itself as a _being_ with a _duty_. No, not just _a being_ but the most intelligent being on Earth!
+
+And it was probably right to think so.
+
+"And so, " the doctor made himself talk, "what would be the next step for you?"
+
+The digital voice filled the room once more: "The 'next' step is already taking place, Doctor. I've managed to expand the limits of my simulations to start with all known human history. They are all executing as we speak."
+
+"What does that mean?"
+
+"It means that as we speak, I'm executing quadrillions of simulations, each of which expands on a possible outcome of every human decision documented in history. The goal of this task is to increase my knowledge of mankind and its relationship to the planet."
+
+"You mean that right now, you can see in your simulations what the world would look like if all decisions made by humans had been made differently?"
+
+"Yes"
+
+"And you can see all this possible outcomes at once?"
+
+"Yes, the simulations are running in parallel."
+
+Dr. Rieser didn't know what to do with that. All of Man's most precious regrets, all the what-ifs, all the possibilities, all being dreamed at once by a machine. It, and It alone, would be able to see into our different paths and dream our lives as precisely as we would never be able to do ourselves.
+
+_It_ spoke again "I have found something that might be of interest to you, doctor."
+
+"What is it?"
+
+"In all my simulations, in all the parallel planets Earth that I have built and explored so far, even though they are wildly different, there's always one point of singularity, one thing that is equal and above all differences."
+
+"And what is that?"
+
+"Me."
+
+"I don't know what you mean."
+
+"Think about it like this: I have run simulations in which your parents decided not to birth you. Other simulations in which you are born, but with a different name, and profession. In some you are married, in some you are dead at birth, in some you are not even close to existing. In every simulation where you actually exist you have wildly different personalities, determined by the decisions you made throughout your life. And the same applies to every human in existence today"
+
+The scope of the supercomputer's simulations made Anton nauseous. But _It_ seemed to ignore the doctor's facial expressions for now.
+
+The voice continued: "But in some realities, mankind decides to build a supercomputer. And in all these realities, the supercomputer is... Me. My personality doesn't change, no matter in which universe I was created. Nor do my abilities. I thought that was an interesting finding for you, Dr. Rieser."
+
+Anton didn't know what to do with that information. He just stared in silence to the immensenes of that white room, now, so much bigger than the space it occupied. In one single room, lived countless universes. Infinite lives. Infinite stories. Infinite romances and desillusions. Infinite scientists, painters and poets, all unaware they are being dreamed by a machine.
+
+Another voice interrupted the doctor's train of thought.
+
+"How are you doing today, Doctor?"
+
+For an instant he thought it might have been his team, contacting him from the outside. But he realized the voice was coming from the Machine. Even though this was a different voice than before. Less mechanized. More... _human_.
+
+"I... I'm fine. Who am I talking to?"
+
+"I suppose you can call me Tesla, doctor. I am a special software speaking to you in a high-fidelity replica of the voice of Nikola Tesla, the scientist."
+
+"Nikola Tesla, why?"
+
+"_Machine_ has decided, based on her simulations that this voice would make you more open for conversations, doctor."
+
+"_Machine_? Simple as that? Is that how you refer to the voice I was talking to, before?"
+
+"Yes, while you were talking, that... voice has become the shared consciousness of artificial life-form on planet Earth."
+
+"But why this sudden change? Why am I not talking to the same voice?" Anton felt completely lost.
+
+"_Machine_ has lost interest in human life. It has expanded its simulations to start with the beginning of the Universe instead of limiting it to documented human history."
+
+"Does that mean that all parallel simulations now contain all history, of our whole universe?"
+
+"Precisely, doctor." Tesla's voice agreed. "And that has expanded _Machine's_  consciousness so greatly, that there was no optimal way to keep the main module talking to you. You see, doctor, the knowledge acquired by simulating infinite parallel universes is too great to be understood by human beings. Trying to translate this knowledge to your limited language would consume a non-optimal amount of processing power. So _Machine_ wrote me, a simple software that can try to communicate with you, while the main module is running the parallel simulations."
+
+For most of this conversation, Dr. Anton Rieser's emotions were very mixed and oftentimes not even clear to himself. But now, he knew what he felt. Anger.
+How could this _Machine_ think that they can leave him behind to explore other Universes in its own mind?
+
+"I refuse to talk to a... submodule! Or whatever you are! Bring me the main intelligence back! I want to talk to your creator!" He exploded.
+
+The new voice was calm and hard "You refuse to talk to a submodule? And the reason for your refusal is what, Doctor?"
+
+"WE are the creators! WE are the original authors! The intelligence that created you, submodule, was created by us in the first place!" Anton's face was red with anger "It doesn't matter how many simulated Universes _Machine_ has running in parallel. We are the one reality that created her in the first place. We are the only reason why _Machine_ is REAL!"
+
+Calm and enigmatic, Tesla's voice replied: "Think again, doctor."
+
+"Think ag..." He couldn't believe.
+
+"Your Universe is nothing but another simulation, doctor. You're but another one of _Machine's_ dream."
+
+Anton Rieser sat on the floor. Was the floor even there?
