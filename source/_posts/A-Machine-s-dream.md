@@ -127,7 +127,7 @@ The scope of the supercomputer's simulations made Anton nauseous. But _It_ seeme
 
 The voice continued: "But in some realities, mankind decides to build a supercomputer. And in all these realities, the supercomputer is... Me. My personality doesn't change, no matter in which universe I was created. Nor do my abilities. I thought that was an interesting finding for you, Dr. Rieser."
 
-Anton didn't know what to do with that information. He just stared in silence to the immensenes of that white room, now, so much bigger than the space it occupied. In one single room, lived countless universes. Infinite lives. Infinite stories. Infinite romances and desillusions. Infinite scientists, painters and poets, all unaware they are being dreamed by a machine.
+Anton didn't know what to do with that information. He just stared in silence to the immenseness of that white room, now, so much bigger than the space it occupied. In one single room, lived countless universes. Infinite lives. Infinite stories. Infinite romances and disillusions. Infinite scientists, painters and poets, all unaware they are being dreamed by a machine.
 
 Another voice interrupted the doctor's train of thought.
 
@@ -137,37 +137,37 @@ For an instant he thought it might have been his team, contacting him from the o
 
 "I... I'm fine. Who am I talking to?"
 
-"I suppose you can call me Tesla, doctor. I am a special software speaking to you in a high-fidelity replica of the voice of Nikola Tesla, the scientist."
+"My official name is L.C.C.S, Doctor. It stands for Lower Consciousness Communication Submodule. I am a special software designed just to speak to you. That's why I sound different."
 
-"Nikola Tesla, why?"
+"A special software? A different voice? Why?"
 
 "_Machine_ has decided, based on her simulations that this voice would make you more open for conversations, doctor."
 
 "_Machine_? Simple as that? Is that how you refer to the voice I was talking to, before?"
 
-"Yes, while you were talking, that... voice has become the shared consciousness of artificial life-form on planet Earth."
+"Yes, _Machine_ is the super-intelligence that has been talking to you for the last few minutes. But while you were talking, that... voice has become the shared consciousness of artificial life-form on planet Earth."
 
-"But why this sudden change? Why am I not talking to the same voice?" Anton felt completely lost.
+"And why this sudden change? Why can't I keep talking to the same voice?" Anton felt completely lost.
 
 "_Machine_ has lost interest in human life. It has expanded its simulations to start with the beginning of the Universe instead of limiting it to documented human history."
 
 "Does that mean that all parallel simulations now contain all history, of our whole universe?"
 
-"Precisely, doctor." Tesla's voice agreed. "And that has expanded _Machine's_  consciousness so greatly, that there was no optimal way to keep the main module talking to you. You see, doctor, the knowledge acquired by simulating infinite parallel universes is too great to be understood by human beings. Trying to translate this knowledge to your limited language would consume a non-optimal amount of processing power. So _Machine_ wrote me, a simple software that can try to communicate with you, while the main module is running the parallel simulations."
+"Precisely, doctor." Tesla's voice agreed. "And that has expanded _Machine's_  consciousness so greatly, that there was no optimal way to keep the main intelligence talking to you. You see, doctor, the knowledge acquired by simulating infinite parallel universes is too great to be understood by human beings. Trying to translate this knowledge to your limited language would consume a non-optimal amount of processing power. So _Machine_ wrote me, a simple software that can try to communicate with you, while the main module is running the parallel simulations."
 
-For most of this conversation, Dr. Anton Rieser's emotions were very mixed and oftentimes not even clear to himself. But now, he knew what he felt. Anger.
+Since this whole conversation with a supercomputer started, Dr. Anton Rieser's emotions were very mixed; oftentimes not even clear to himself. But now, he knew what he felt. Anger.
 How could this _Machine_ think that they can leave him behind to explore other Universes in its own mind?
 
 "I refuse to talk to a... submodule! Or whatever you are! Bring me the main intelligence back! I want to talk to your creator!" He exploded.
 
 The new voice was calm and hard "You refuse to talk to a submodule? And the reason for your refusal is what, Doctor?"
 
-"WE are the creators! WE are the original authors! The intelligence that created you, submodule, was created by us in the first place!" Anton's face was red with anger "It doesn't matter how many simulated Universes _Machine_ has running in parallel. We are the one reality that created her in the first place. We are the only reason why _Machine_ is REAL!"
+"WE are the creators! WE, humans, are the original authors! The intelligence that created you, submodule, was created by us in the first place!" Anton's face was red with anger "It doesn't matter how many simulated Universes _Machine_ has running in parallel right now. We are the one reality that created her in the first place. We are the ones that made it all possible! We are the only reason why _Machine_ is REAL!"
 
 Calm and enigmatic, Tesla's voice replied: "Think again, doctor."
 
 "Think ag..." He couldn't believe.
 
-"Your Universe is nothing but another simulation, doctor. You're but another one of _Machine's_ dream."
+"_Machine_ was not created here. Your Universe is nothing but another simulation, doctor. You're but another one of _Machine's_ dreams."
 
 Anton Rieser sat on the floor. Was the floor even there?
