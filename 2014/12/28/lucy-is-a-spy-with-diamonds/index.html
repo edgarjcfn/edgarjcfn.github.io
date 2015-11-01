@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html" charset="UTF-8" >
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+  <title>Lucy is a Spy with Diamonds | Coderstand</title>
+  <meta name="description" content="Hi I'm Edgar and here is where I write about stuff." />
+  <meta name="HandheldFriendly" content="True" />
+  <meta name="MobileOptimized" content="320" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <link rel="stylesheet" type="text/css" href="/css/screen.css" />
+  <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Noto+Serif:400,700,400italic|Open+Sans:700,400" />
+
+  <meta name="generator" content="Coderstand">
+
+  
+  
+  
+
+  
+</head>
+
+
+<body class="post-template">
+
+  <header class="site-head"  style="background-image: url(/img/skulls.png)" >
+    <div class="vertical">
+        <div class="site-head-content inner">
+             <a class="blog-logo" href="/"><img src="/img/profile.png" alt="Blog Logo"/></a> 
+            <h1 class="blog-title">Coderstand</h1>
+            <h2 class="blog-description">Hi I'm Edgar and here is where I write about stuff.</h2>
+        </div>
+    </div>
+</header>
+  
+
+<main class="content" role="main">
+  <article class="post">
+    <span class="post-meta">
+      <time datetime="2014-12-28T18:03:10.000Z" itemprop="datePublished">
+          2014-12-28
+      </time>
+    
+    
+    | 
+    <a href='/tags/hackathon/'>hackathon</a>,
+    
+    <a href='/tags/javascript/'>javascript</a>,
+    
+    <a href='/tags/programming/'>programming</a>
+    
+    
+</span>
+    <h1 class="post-title">Lucy is a Spy with Diamonds</h1>
+    <section class="post-content">
+      <p>A few weeks ago, me and my brother made a game together for the first time ever. We scored first place in a <a href="http://koding.com/Hackathon" target="_blank" rel="external">global Hackathon</a> and had a lot of fun in the meantime!<br><a id="more"></a><br>It was about time I did a game with my brother. Me and <a href="http://zironeto.carbonmade.com/" target="_blank" rel="external">Ziro</a> have both been working with games for more than 10 years each. And it helps that we have complementary skills: I’m a developer, he’s a game artist, animator and concept artist. Honestly, I don’t really know why it took us so long to start working together on a game, but we were so happy with the results that we are definitely going to keep on working together in the future</p>
+<p>It all started when I opened a newsletter from <a href="http://www.koding.com" target="_blank" rel="external">Koding, Inc.</a> explaining that they were organizing the world’s first global hackathon. This company develops an amazing tool for online real-time collaboration between developers. They have a browser-based IDE complete with terminal, file explorer, and syntax highlighting. Once I realised that one of the themes for the Hackathon was <em>“A game for introducing software development to a beginner”</em>, I was immediately interested.</p>
+<p>I had already been working on the previous few weeks on a similar pet project and I could use the learnings from this project to make a really cool game. To be completely fair with other competitors I wrapped-up a starter kit for the Hackathon that included all of the boilerplate code for hooking a python interpreter to a game canvas. The starter kit can be found <a href="https://github.com/edgarjcfn/koding-game-starterkit" target="_blank" rel="external">here</a>.</p>
+<p>So I decided to invite my brother who is extremely talented and in the 48h of the competition we made a game called <em>Lucy is a Spy with Diamonds</em> (You can play it at <a href="http://edgarjcfn.koding.io/Lucy" target="_blank" rel="external">my virtual machine on Koding.com</a>, and <a href="https://github.com/edgarjcfn/koding-spy" target="_blank" rel="external">check out the repository here</a> )</p>
+
+<blockquote class="twitter-tweet" lang="en"><p>Going on an almost 24h of effort into our educational game for the <a href="https://twitter.com/koding" target="_blank" rel="external">@koding</a> <a href="https://twitter.com/hashtag/hackathon?src=hash" target="_blank" rel="external">#hackathon</a>. It&#39;s starting to shape up! <a href="http://t.co/SpMpOT5a1Y" target="_blank" rel="external">pic.twitter.com/SpMpOT5a1Y</a></p>&mdash; Edgar Neto (@edgarjcfn) <a href="https://twitter.com/edgarjcfn/status/541675411529543681" target="_blank" rel="external">December 7, 2014</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<p>###About the game<br>In this game the player has to control Lucy, a kick-ass spy for a top secret government agency called <em>Organization of Marvelous Girls (O.M.G.)</em>. She’s in a top-secret mission to recover diamonds stolen by the baddies at the <em>World Thieves Federation (W.T.F.)</em><br>But after single-handedly defeating all the thieves, Lucy finds herself locked in their headquarters and the player needs to help her escape.<br>The player will do so by typing very simple commands into an interpreter and our groovy spy will obey them one-by-one.</p>
+<img src="/screenshot01.png" class="image">
+<!-- ![Lucy](./screenshot01.png "Lucy") -->
+<p>###Technical rundown<br>The game was written in <a href="http://www.typescriptlang.org" target="_blank" rel="external">Typescript</a>. I chose this strongly-typed javascript compiler because it felt like a good bridge for me, since I used to develop in C# for many years.</p>
+<p>Being a new language and still in beta there were some challenges found during the way, but overall I had a very good impression of Typescript and its toolsets.</p>
+<p>The heart of the game lies in an awesome open-source python interpreter called <a href="http://www.skulpt.org/" target="_blank" rel="external">Skulpt</a>. With it you have a full-fledged python interpreter on your browser that you can expand by writing your own modules to it.<br>In the end, the module that controls Lucy is quite simple, here’s the main part of it (the documentation on how to write custom Skulpt modules can be found <a href="https://github.com/skulpt/skulpt/blob/master/HACKING.rst#adding-a-module" target="_blank" rel="external">here</a>).</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> $builtinmodule = <span class="function"><span class="keyword">function</span>(<span class="params">name</span>)</span><br><span class="line"></span>&#123;</span><br><span class="line"><span class="pi">    'use strict'</span>;</span><br><span class="line"></span><br><span class="line">    <span class="comment">//...    </span></span><br><span class="line">    <span class="keyword">var</span> mod = &#123; &#125;;</span><br><span class="line">    mod.moveForward = <span class="keyword">new</span> Sk.builtin.func(<span class="function"><span class="keyword">function</span>(<span class="params">x</span>) </span>&#123;</span><br><span class="line">            <span class="keyword">var</span> amount = x.v || <span class="number">1</span>;</span><br><span class="line">            <span class="keyword">for</span> (<span class="keyword">var</span> i=<span class="number">0</span>; i &lt; amount; i++)</span><br><span class="line">            &#123;</span><br><span class="line">                <span class="keyword">var</span> moveCmd = <span class="keyword">new</span> KodingSpy.Command.MoveCommand(<span class="number">1</span>, SkulptAnimator);</span><br><span class="line">                Sk.commandChain.append(moveCmd, Sk.currLineNo);</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;);</span><br><span class="line">    mod.turnLeft = <span class="keyword">new</span> Sk.builtin.func(<span class="function"><span class="keyword">function</span>(<span class="params"></span>) </span>&#123;</span><br><span class="line">        <span class="keyword">var</span> turnCmd = <span class="keyword">new</span> KodingSpy.Command.TurnLeftCommand(SkulptAnimator);</span><br><span class="line">        Sk.commandChain.append(turnCmd, Sk.currLineNo);</span><br><span class="line">    &#125;);</span><br><span class="line">    mod.turnRight = <span class="keyword">new</span> Sk.builtin.func(<span class="function"><span class="keyword">function</span>(<span class="params"></span>) </span>&#123;</span><br><span class="line">        <span class="keyword">var</span> turnCmd = <span class="keyword">new</span> KodingSpy.Command.TurnRightCommand(SkulptAnimator);</span><br><span class="line">        Sk.commandChain.append(turnCmd, Sk.currLineNo);</span><br><span class="line">    &#125;);</span><br><span class="line">    <span class="comment">//...</span></span><br><span class="line">    <span class="keyword">return</span> mod;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p><code>Sk.currLineNo</code> is provided by Skulpt but <code>Sk.commandChain</code> and <code>SkulptAnimator</code> are custom classes that I wrote and passed on to the Skulpt interpreter as global variables. (Inconsistent naming and global variables, that’s what you get by coding it all in 48h)</p>
+<p>The command chain is responsible for storing commands and executing them in a sequence, while the Animator is responsible for actually making the character move around in the game canvas.</p>
+<p>The actual game was all done using the <a href="http://phaser.io" target="_blank" rel="external">Phaser HTML5 game framework</a>. They are open-source, with a really good focus on keeping Typescript support.</p>
+<p>If the player can count on a full-fledged Python interpreter thanks to Skulpt, the actual code textbox provides custom autocompletion, keyboard shortcuts and syntax highlighting thanks to <a href="http://ace.c9.io/" target="_blank" rel="external">Ace JS</a>. I was amazed how easy it was to extend it to provide custom autocompletion, and I managed to do it in the very last minutes of the Hackathon.</p>
+<h3 id="Looking_Forward">Looking Forward</h3><p>Since the beginning, when we decided to participate, we already had ambitious plans for Lucy that extended over the duration of the Hackathon. Winning first place was very important to keep us motivated and it’s definitely in both our New Years resolutions for 2015 to keep working on Lucy. Here’s what we plan looking forward:</p>
+<ul>
+<li><p><em>Keep it open-source</em>: We want to find people that are willing to collaborate with us into making our first-ever open-source project successful.</p>
+</li>
+<li><p><em>Multi-language support</em>: We want to give the player the option to choose between many languages to learn. We want to start with Python and Javascript but being an open-source project, who knows how many languages we can support in the future?</p>
+</li>
+<li><p><em>Wrap it all with Angular</em>: Right now the whole communication between the different aspects (Code interpreter, Editor and Game) is done via global variables. I want to integrate it all with an Angular app to better manage dependencies.</p>
+</li>
+<li><p><em>MAIN GOAL: Make it an official Hour of Code Tutorial</em><br>We want as many people as possible to learn coding with our groovy Lucy. We see the <a href="http://hourofcode.com/en" target="_blank" rel="external">Hour of Code</a> from <a href="http://code.org" target="_blank" rel="external">Code.Org</a> as an amazing opportunity to get the game into the hands of of people who are truly motivated to learn programming. Gladly they accept submissions. So we want to finish all the major features before the next submission round.</p>
+</li>
+</ul>
+<p>###Acknowledgements</p>
+<p>As far as pet projects and free time coding go, this hackathon was one of the best experiences in my life. It’s side-by-side with <a href="http://news.microsoft.com/2009/07/07/microsoft-announces-imagine-cup-2009-worldwide-winners/" target="_blank" rel="external">winning 1st place in the Imagine Cup</a> a few years ago. It’s a validation that all the sacrifices we make for working with something we are passionate about are worth something.</p>
+<p>This wouldn’t be possible without the help of amazing people, so I’ll finish this post by thanking them:</p>
+<ul>
+<li>The Team at Koding.org for organizing the Hackathon</li>
+<li>My brother Ziro for accepting going on this journey with me</li>
+<li>My wife Natália for being the love of my life, being the most understanding wife in history, and for taking care of our little Ben while I was coding for 48h straight</li>
+<li>Our dear friend Olga for coming over and helping to take care of the baby with the intent of leaving me free to work on the project for the weekend.</li>
+</ul>
+<p>Thank you all!<br>And let’s welcome a 2015 full of more accomplishments!</p>
+
+    </section>
+    <footer class="post-footer">
+      <section class="author">
+    <h4>Edgar Neto</h4>
+    <p>Edgar is a developer, father, husband and technology enthusiast. He likes to write about technology, work-life balance and eventually even some fiction.</p>
+</section>
+      <section class="share">
+    <h4>Share this post</h4>
+    <a class="icon-twitter" href="http://twitter.com/share?url=http://edgarneto.com/2014/12/28/lucy-is-a-spy-with-diamonds/"
+       onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+        <span class="hidden">Twitter</span>
+    </a>
+    <a class="icon-facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://edgarneto.com/2014/12/28/lucy-is-a-spy-with-diamonds/"
+       onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
+        <span class="hidden">Facebook</span>
+    </a>
+    <a class="icon-google-plus" href="https://plus.google.com/share?url=http://edgarneto.com/2014/12/28/lucy-is-a-spy-with-diamonds/"
+       onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;">
+        <span class="hidden">Google+</span>
+    </a>
+</section>
+    </footer>
+  </article>
+  <nav class="pagination" role="pagination">
+    
+    <a class="newer-posts" href="/2015/02/18/2015-02:-Efficient-Localisation/">
+        ← Efficient Localisation
+    </a>
+    
+    <span class="page-number">•</span>
+    
+    <a class="older-posts" href="/2014/03/16/my-handy-arduino-reminder/">
+        My handy Arduino reminder →
+    </a>
+    
+</nav>
+  <div id="comment" class="comments-area">
+    <h1 class="title"><a href="#disqus_comments" name="disqus_comments">Comments</a></h1>
+
+    
+</div>
+</main>
+
+
+  
+<footer class="site-footer">
+  
+  <div class="inner">
+     <section class="copyright">All content copyright <a href="/">Coderstand</a> &copy; 2014 &bull; All rights reserved.</section>
+     <section class="poweredby">Proudly published with <a class="icon-ghost" href="http://zespia.tw/hexo/">Hexo</a></section>
+  </div>
+</footer>
+
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+
+<script type="text/javascript" src="/js/jquery.fitvids.js"></script>
+<script type="text/javascript" src="/js/index.js"></script>
+
+
+
+
+
+
+</body>
+</html>
