@@ -1,12 +1,37 @@
 title: Hello World
-date: 2014-03-09 14:43:22
-categories:
- - Blog
 ---
-I've tried blogging many times.
-I've stopped blogging even more times.
-Let's give this a try again.
+Welcome to [Hexo](http://hexo.io/)! This is your very first post. Check [documentation](http://hexo.io/docs/) for more info. If you get any problems when using Hexo, you can find the answer in [troubleshooting](http://hexo.io/docs/troubleshooting.html) or you can ask me on [GitHub](https://github.com/hexojs/hexo/issues).
 
-<!-- more -->
+## Quick Start
 
-I'm creating this blog because I need a place to dump all my ideas. I figured some of the things I want to share are not very fitting into a social network like Facebook and also don't fit into 140 characters for Twitter. Falling into this category are especially some more technical explanations of my pet projects and what comes out of my eventual adventures into fiction writing.
+### Create a new post
+
+``` bash
+$ hexo new "My New Post"
+```
+
+More info: [Writing](http://hexo.io/docs/writing.html)
+
+### Run server
+
+``` bash
+$ hexo server
+```
+
+More info: [Server](http://hexo.io/docs/server.html)
+
+### Generate static files
+
+``` bash
+$ hexo generate
+```
+
+More info: [Generating](http://hexo.io/docs/generating.html)
+
+### Deploy to remote sites
+
+``` bash
+$ hexo deploy
+```
+
+More info: [Deployment](http://hexo.io/docs/deployment.html)

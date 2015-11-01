@@ -1,16 +1,6 @@
+
 <main class="content" role="main">
-  <% var showAll = false
-    try {
-      showAll = showExcluded;
-    }
-    catch(e) {}
-    /*
-       Using empty try-catch because the .ejs eval is strict and
-       throws exception when variable is not found
-     */
-    %>
   <% page.posts.each(function(post) { %>
-  <% if (!showAll && excludedFromIndex(post)) {return} %>
   <article class="post">
     <header class="post-header">
       <%- partial('post/meta', {post: post}) %>

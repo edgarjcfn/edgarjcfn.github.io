@@ -1,22 +1,8 @@
-<header class="site-head" <% if (theme.cover) { %> style="background-image: url(<%- theme.cover %>); background-repeat: repeat" <% } %>>
-    <div class="nav">
-        <div class="navbar navbar-default navbar-fixed-top">
-          <div class="navbar-collapse collapse navbar-responsive-collapse">
-            <ul class="nav navbar-nav ">
-              <li><a href="/">Home</a></li>
-              <li><a href="/archives/">Blog Archive</a></li>
-              <!-- <li><a href="/fiction/">Fiction</a></li> -->
-            </ul>
-            <ul class="nav navbar-nav navbar-right">
-                <li><a href="http://about.me/edgarneto">About Me</a></li>
-            </ul>
-          </div>
-        </div>
-    </div>
+<header class="site-head" <% if (theme.cover) { %> style="background-image: url(<%- theme.cover %>)" <% } %>>
     <div class="vertical">
         <div class="site-head-content inner">
             <% if (theme.logo) { %> <a class="blog-logo" href="<%- config.root %>"><img src="<%- theme.logo %>" alt="Blog Logo"/></a> <% } %>
-            <h1 class="blog-title"><a href="<%- config.root %>"><%- config.title %></a></h1>
+            <h1 class="blog-title"><%- config.title %></h1>
             <h2 class="blog-description"><%- config.subtitle %></h2>
         </div>
     </div>
